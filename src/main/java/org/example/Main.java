@@ -10,7 +10,7 @@ public class Main {
         double b = 3.0;
 
         Calculate maytinh = new Calculate();
-        int tong = maytinh.tinhTong(x, y);
+        int tong = maytinh.tinhTong(x, y;
         double thuong = maytinh.chiaw(a, b);
         System.out.println("Tổng: " + tong);
         System.out.println("Thương: " + thuong);
