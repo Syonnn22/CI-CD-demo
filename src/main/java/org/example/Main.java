@@ -9,6 +9,7 @@ public class Main {
         double a = 6.0;
         double b = 3.0;
 
+        //A
         Calculate maytinh = new Calculate();
         int tong = maytinh.tinhTong(x, y);
         double thuong = maytinh.chiaw(a, b);
