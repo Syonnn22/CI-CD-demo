@@ -12,8 +12,8 @@ public class CalculateTest {
     }
 
     @Test
-    public void testChiaw() {
+    public void testChia() {
         Calculate calculate = new Calculate();
-        assertEquals(2.0, Calculate.chiaw(6.0, 3.0));
+        assertEquals(2.0, Calculate.chia(6.0, 3.0));
     }
 }

@@ -16,11 +16,14 @@ public class Calculate {
         }
 
         int res = x + y;
-        logger.debug("Kết quả tạm tính được: {}", res); // Chỉ hiện nếu Root level là DEBUG
         return res;
     }
 
-    public static double chiaw(double x, double y) {
+    public static double chia(double x, double y) {
+        if (y == 0){
+            logger.debug("Cố gắng chia cho 0: x={}, y={}", x, y);
+            throw new IllegalArgumentException("Không thể chia cho 0");
+        }
         return x / y;
     }
 }

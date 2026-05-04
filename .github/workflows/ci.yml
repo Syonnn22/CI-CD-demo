@@ -23,4 +23,10 @@ jobs:
           cache: maven
 
       - name: Build project
-        run: mvn clean install
+        run: mvn clean package
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v3
+        with:
+            name: my-app-jar
+            path: target/*.jar
