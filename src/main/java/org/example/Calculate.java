@@ -9,7 +9,7 @@ public class Calculate {
     private static final Logger logger = LoggerFactory.getLogger(Calculate.class);
 
     public int tinhTong(int x, int y) {
-        logger.info("Đang thực hiện tính tổng cho: {} và {}", x, y);
+        logger.info("Đang thực hiện tính tổng cho: {} và {}", x, y)
 
         if (x < 0 || y < 0) {
             logger.warn("Cảnh báo: Có số âm truyền vào: x={}, y={}", x, y);
